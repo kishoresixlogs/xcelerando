@@ -1,0 +1,183 @@
+
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.ico-profile {
+    width: 24px;
+    height: 24px;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 24px;
+}
+.profile-section {
+    flex: 1 1;
+    /* min-width: 300px; */
+    display: flex;
+    gap: 2rem
+}
+.profile, .card-details {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.personal-details, .change-password {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 70%;
+}
+.profile-header {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100%;
+}
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* margin-right: 20px; */
+}
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.profile-role {
+    color: #666;
+}
+.profile-email {
+    color: #007bff;
+}
+.edit-profile {
+    color: #007bff;
+    text-decoration: none;
+    float: right;
+}
+.detail {
+    margin-bottom: 10px;
+}
+.detail-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.card {
+    background-color: #f0f2f5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.card-number {
+    font-family: monospace;
+}
+.manage-link {
+    color: #007bff;
+    text-decoration: none;
+    float: right;
+}
+
+.details-container {
+    display: flex;
+    gap: 20px; /* Adjust gap between columns as needed */
+}
+
+.details-column {
+    flex: 1; /* Each column will take equal width */
+}
+
+.details-table {
+    width: 100%; /* Full width inside each column */
+}
+
+.detail-label {
+    font-weight: bold;
+}
+.profile-section .hed h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-section .hed p {
+    text-align: center;
+    color: #92929D;
+}
+
+.profile-section .hed p.profile-email {
+    color: #92929D;
+}
+
+section.personal-details h3 {
+    margin-bottom: 30px;
+}
+
+.personal-details table.details-table tr {
+    height: 40px;
+}
+
+.personal-details table.details-table td {
+    color: #696974;
+}
+
+section.personal-details a.edit-profile {
+    color: #696974;
+    text-decoration: underline;
+}
+
+.profile-section section.change-password  button {
+    border: unset;
+    background: #496DAB;
+    color: #fff;
+    padding: 11px 40px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+section.change-password h3 {
+    margin-bottom: 20px;
+}
+
+section.change-password .chng-pass-main {
+    display: flex;
+    gap: 20px;
+}
+
+section.change-password .chng-pass-main .current-pass {
+    width: 50%;
+}
+
+section.change-password .chng-pass-main .new-pass {
+    width: 50%;
+}
+
+section.change-password .chng-pass-main input {
+    background: #F2F7FA;
+    border-color: #F2F7FA;
+}
+
+section.change-password .chng-pass-main input::placeholder {
+    color: #BCC7D1;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .profile-section {
+        width: 100%;
+    }
+}

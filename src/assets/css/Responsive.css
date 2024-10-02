@@ -1,0 +1,903 @@
+@media only screen and (max-width: 1600px) {
+    .eventDetial .semiBold {
+        font-size: 18px;
+    }
+
+    .filter_options .inputFields {
+        max-width: 200px;
+    }
+
+    .editProfile_left .nav-pills .nav-link {
+        width: 100%;
+    }
+
+    .friendlist_blocklist .col-lg-6 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1544px) {
+    .tagg_inputFields {
+        height: auto;
+    }
+
+    .tagg_inputFields .btn-group {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .emoji-picker-container2 {
+        top: 24%;
+    }
+
+    .event_img img {
+        width: 150px;
+        height: 140px;
+    }
+
+    .semiBold {
+        font-size: 20px;
+    }
+
+    .desc {
+        font-size: 25px;
+    }
+
+    .tagg_inputFields {
+        height: auto;
+    }
+
+    .tagg_inputFields .btn-group {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1280px) {
+    .user_desc {
+        font-size: 16px;
+    }
+
+    .all_users_tabs .user_title {
+        font-size: 16px;
+    }
+
+    .filter_options .inputFields {
+        max-width: 150px;
+    }
+
+    .edit_profile_sect .editProfile_section_tea .profileInput {
+        max-width: 620px;
+        column-count: 1;
+        width: 100%;
+    }
+
+    .tagg_inputFields {
+        height: auto;
+    }
+
+    .tagg_inputFields .btn-group {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .user_profile_friends {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .accept_rejectBtn {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .sideBar_profile .member_descRight_2 .member_info {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logoSect {
+        max-width: 120px;
+    }
+
+    .member_desc {
+        flex-direction: column;
+    }
+
+    .nav_links ul {
+        gap: 0px;
+    }
+
+    .profile_notification {
+        width: 420px;
+        margin: 0 0 0 auto;
+    }
+
+    .user_dropDown {
+        width: 300px;
+        justify-content: flex-start;
+    }
+
+    .user_detail {
+        width: calc(100% - 120px);
+    }
+
+    .dropDown_icon {
+        margin-left: 0px;
+    }
+
+    .memberOffcanvas_right {
+        width: 501px !important;
+    }
+
+    .emoji-picker-container2 {
+        top: 23%;
+    }
+
+    .msg_photos {
+        height: 160px;
+        margin-bottom: 10px !important;
+    }
+
+    .msg_photos img {
+        width: 100%;
+        height: 160px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .user_profile_friends {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .member_descRight {
+        width: 100%;
+    }
+
+    .chat_section1 .container {
+        max-width: 100%;
+    }
+
+    .filter_options {
+        flex-direction: column;
+    }
+
+    .filter_options .inputFields {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .filter_options .filterTxt {
+        width: 100%;
+    }
+
+    .nav_links {
+        width: 300px;
+        position: fixed;
+        height: 100vh;
+        left: -300px;
+        top: 0;
+        background: #191919;
+        z-index: 2;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav_links.active {
+        left: 0;
+    }
+
+    .menutoggle {
+        display: block;
+        width: 100%;
+        text-align: end;
+    }
+
+    .nav_links .d_flexCenterGap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .menuclose {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        display: block;
+    }
+
+    .mobile_searchfield {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 20px 0;
+    }
+
+    .desktop_search {
+        display: none;
+    }
+
+    .desktop_notif {
+        display: none;
+    }
+
+    .profile_notification {
+        width: 100%;
+        margin: 0 0 0 auto;
+        justify-content: end;
+    }
+
+    .desktop_userview {
+        display: none;
+    }
+
+    .mobile_userview {
+        display: block;
+        margin: 30px 0 0;
+    }
+
+    .profile_notification {
+        display: none;
+    }
+
+    .search,
+    .notification {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mobile_userview .user_dropDown {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+
+    .mobile_userview .user_dropDown .user_img img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mobile_userview .user_dropDown .name {
+        font-size: 12px;
+    }
+
+    .mobile_userview .user_dropDown .email {
+        font-size: 12px;
+    }
+
+    .nav_links li {
+        width: 100%;
+        background: #313131 !important;
+        margin-bottom: 2px;
+        border-radius: 0 !important;
+        padding: 5px 15px !important;
+    }
+
+    .nav_links ul li a {
+        font-size: 20px;
+        color: #fff !important;
+    }
+
+    .profile_login_detail.active .account_detailList {
+        background: transparent !important;
+    }
+
+    .profile_login_detail.active .account_detailList a {
+        color: #191919 !important;
+    }
+
+    .emoji_sect .inputFields {
+        justify-content: end;
+    }
+
+    .event_section1 .filter_options2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .event_section1 .filter_options2 .inputFields {
+        width: 100%;
+    }
+
+    .inputFields .auto-complete {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:910px) {
+    .images-wraper img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .images-wraper div {
+        width: 120px;
+        height: 120px;
+    }
+
+    .msg_photos {
+        height: 160px;
+    }
+
+    .friendReq_sect {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .friendReq_sect .d_flexStart {
+        width: 100%;
+        align-items: center;
+    }
+
+    .msg_photos img {
+        height: 140px;
+    }
+
+    .singleUser_title .user_title {
+        font-size: 25px;
+    }
+
+    .semiBold {
+        font-size: 20px;
+    }
+
+    .all_users_tabs .user_title {
+        font-size: 15px;
+    }
+
+    .all_users_tabs .user_img img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .all_users_tabs .user_message_tabs {
+        padding: 10px 5px;
+        gap: 5px;
+    }
+
+    .chat_section1 .nav-pills .nav-link {
+        width: 100%;
+    }
+
+    .initial-row .leftCol {
+        width: 100%;
+        min-height: 30vh;
+    }
+
+    .initial-row .rightCol {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .initial-row {
+        display: unset;
+    }
+
+    .initial-row .leftCol img {
+        max-width: 150px;
+    }
+
+    .emoji-picker-container2 {
+        top: 21%;
+    }
+
+    .event_section1 .filter_options2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .event_section1 .filter_options2 .inputFields {
+        width: 100%;
+    }
+
+    .inputFields .auto-complete {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .emoji-picker-container2 {
+        top: 13%;
+    }
+
+    .friendReq_sect {
+        flex-wrap: unset;
+    }
+
+    .user_profile_friends {
+        margin: unset;
+    }
+
+    .forgotBtn {
+        bottom: 10px;
+    }
+
+    .memberCard {
+        width: 200px;
+        /* height: 230px; */
+        position: relative;
+    }
+
+    .profile_notification {
+        width: 100%;
+        justify-content: end;
+    }
+
+    .logoSect {
+        max-width: 100px;
+    }
+
+    .editProfile_content {
+        flex-direction: column;
+    }
+
+    .resendBtn {
+        width: 100%;
+    }
+
+    .msgRecieved {
+        width: 100%;
+    }
+
+    .msgsent {
+        width: 100%;
+    }
+
+    .container-fluid {
+        padding: 0 15px;
+    }
+
+    .friend_photos {
+        width: 100%;
+        height: 130px;
+    }
+
+    .friend_photos img {
+        width: 100%;
+        height: 130px;
+    }
+
+    .event_section1 .filter_options2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .event_section1 .filter_options2 .inputFields {
+        width: 100%;
+    }
+
+    .inputFields .auto-complete {
+        width: 100%;
+    }
+
+    .message_section {
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width:575px) {
+    .emoji-picker-container2 {
+        top: 22%;
+    }
+
+    .friendReq_sect {
+        flex-direction: column;
+    }
+
+    .friendReq_sect .d_flexStart {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .initial-row .leftCol {
+        width: 100%;
+        min-height: 15vh;
+    }
+
+    .initial-row .rightCol {
+        min-height: 85vh;
+    }
+
+    .search-result-sect1 {
+        padding: 40px 10px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .emoji_sect label {
+        position: unset;
+    }
+
+    .new_h {
+        position: unset;
+        margin: 0 10px 6px 0;
+    }
+
+    .searchtitle {
+        font-size: 12px;
+    }
+
+    .search_userSect {
+        max-width: 120px;
+        min-width: 120px;
+    }
+
+    .search_detail {
+        width: 180px;
+        max-width: 80px;
+        min-width: 80px;
+        text-align: center;
+    }
+
+    .user_img img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .check_img img {
+        width: 100%;
+        max-width: 27px;
+    }
+
+    .search_all_resultRow .user_title {
+        font-size: 14px;
+    }
+
+    .search_all_resultRow .paragraph {
+        font-size: 13px;
+    }
+
+    .search_all_resultRow .user_message_tabs {
+        width: 250px;
+        max-width: 120px;
+        min-width: 120px;
+    }
+
+    .search_Personality_detail {
+        max-width: 110px;
+        min-width: 110px;
+    }
+
+    .d_flexCenterGap.member-profile {
+        display: unset;
+    }
+
+    .forgotBtn {
+        bottom: 10px;
+    }
+
+    .chat_all_messageswrap {
+        flex-direction: column;
+    }
+
+    .chat_all_users {
+        max-width: 100%;
+    }
+
+    .single_user_msgs {
+        width: 100%;
+    }
+
+    .memberName {
+        font-size: 18px;
+    }
+
+    .memberLoc {
+        font-size: 18px;
+    }
+
+    .event_img img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .event_details .d_flexSpacebetween {
+        gap: 20px;
+    }
+
+    .event_details .semiBold {
+        font-size: 16px;
+    }
+
+    .event_details .date {
+        text-align: end;
+    }
+
+    .event_details .desc {
+        font-size: 18px;
+    }
+
+    .event_details .paragraph {
+        font-size: 16px;
+    }
+
+    .memberProfile img {
+        max-width: 400px;
+    }
+
+    .group_allchat {
+        height: 65vh;
+    }
+
+    .mobile_msgChatscreen {
+        display: block;
+    }
+
+    .desktop_chatscreen1 {
+        display: none;
+    }
+
+    .user_msg_detail {
+        height: 450px;
+    }
+
+    .user_chats_col {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .editProfile_right {
+        width: 100%;
+    }
+
+    .user_profile_friends {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .mt-5 {
+        margin-top: 0 !important;
+    }
+
+    .eventCard {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .eventDetial .semiBold {
+        font-size: 18px;
+    }
+
+    .tags {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .member_name {
+        font-size: 22px;
+    }
+
+    .titleBold {
+        font-size: 25px;
+    }
+
+    .memberbasicInfo_rowLeft {
+        max-width: 200px;
+    }
+
+    .msgRecieved {
+        width: 100%;
+    }
+
+    .msgsent {
+        width: 100%;
+    }
+
+    .chat_all_messageswrap {
+        margin-top: 10px;
+    }
+
+    .titleSection {
+        margin: 0 auto 0;
+        padding-left: 0px;
+    }
+
+    .single_user_msgs {
+        margin-top: 30px;
+    }
+
+    .profile_photo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .user_profile_friends .user_title {
+        font-size: 20px;
+    }
+
+    .user_profile_friends .user_dess {
+        font-size: 16px;
+    }
+
+    .friend_photos {
+        width: 100%;
+        height: 120px;
+    }
+
+    .friend_photos img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .changepsd {
+        max-width: 350px !important;
+    }
+
+    .eventDetial {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+    .images-wraper img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .images-wraper div {
+        width: 110px;
+        height: 110px;
+    }
+
+    .emoji-picker-container2 {
+        top: 20%;
+    }
+
+    .memberOffcanvas_right {
+        width: 425px !important;
+    }
+
+    .event_details {
+        width: 100%;
+    }
+
+    .memberProfile img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .memberCard {
+        width: 180px;
+        height: 210px;
+    }
+
+    .event_box {
+        flex-direction: column;
+    }
+
+    .event_img img {
+        width: 100%;
+        height: 100px;
+        min-width: 130px;
+    }
+
+    .logoSect {
+        max-width: 70px;
+    }
+
+    .logoSect img {
+        max-width: 50px;
+    }
+
+    .search,
+    .notification {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user_dropDown {
+        padding: 5px;
+    }
+
+    .container-fluid {
+        padding: 0px 15px;
+    }
+
+    .memberProfile img {
+        max-width: 300px;
+    }
+
+    .initial-row .rightCol {
+        padding: 60px 30px !important;
+        justify-content: flex-start;
+    }
+
+    .memberName {
+        font-size: 15px;
+    }
+
+    .memberLoc {
+        font-size: 14px;
+    }
+
+    .event_wrapper {
+        padding: 10px;
+        height: 550px;
+    }
+
+    .event_details .semiBold {
+        font-size: 14px;
+    }
+
+    .event_details .date {
+        font-size: 12px;
+    }
+
+    .event_details .desc {
+        font-size: 15px;
+    }
+
+    .event_details .paragraph {
+        font-size: 12px;
+    }
+
+    .eventImg img {
+        height: 150px;
+    }
+
+    .eventDetial .semiBold {
+        font-size: 15px;
+    }
+
+    .tags {
+        font-size: 15px;
+    }
+
+    .eventDetial .paragraph {
+        font-size: 14px;
+    }
+
+    .logInput input,
+    select {
+        font-size: 14px;
+    }
+
+    .loginHeading {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width:320px) {
+    .mt-5 {
+        margin-top: 0 !important;
+    }
+
+    .forgotBtn {
+        bottom: 10px;
+    }
+
+    .logInput input,
+    select {
+        font-size: 13px;
+    }
+
+}
